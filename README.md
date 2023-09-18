@@ -3,7 +3,7 @@
 # 未解决的问题
 - 编译后的nginx，无法解决当时更换目录的问题，也就是只能在固定目录安装。故只能固定安装目录。
 - redis不知道有没有这个问题，毕竟没有更换过目录
-# 在ubuntu联网环境下下载依赖包的指令
+# 在ubuntu联网环境下载依赖包的指令
 `apt-get download $(apt-cache depends --recurse --no-recommends --no-suggests --no-conflicts --no-breaks --no-replaces --no-enhances 需要下载的软件名 | grep "^\w" | sort -u)`
 # 测试过的版本
 Ubuntu 22.04.1
